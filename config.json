@@ -1,0 +1,12 @@
+{
+	"appname": "injektor",
+	"host": "localhost",
+	"port": 8888,
+	"requestTimeout": 30000,
+	"proxyLoadTimeout": 15000,
+	"targetHost": "www.yahoo.com",
+	"targetPort": "80",
+	"staticPort": 3000,
+	"staticDir": "./pills"
+
+}

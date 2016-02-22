@@ -1,0 +1,18 @@
+{
+  "appenders": [
+    {
+      "type": "console",
+      "category": "injektor"
+    },
+    {
+      "type": "file",
+      "filename": "injektor.log",
+      "maxLogSize": 20480,
+      "backups": 3,
+      "category": "injektor"
+    }
+  ],
+  "levels": {
+    "injektor":  "DEBUG"
+  }
+}

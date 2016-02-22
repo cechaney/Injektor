@@ -1,0 +1,17 @@
+{
+	"name": "injektor",
+	"version": "0.0.1",
+	"homepage": "",
+	"description": "A node.js proxy that can inject content into the original response",
+	"author": "Chris Chaney",
+	"dependencies": {
+		"log4js": "latest",
+		"qs": "latest",
+		"url": "latest",
+		"linestream": "latest",
+		"node-static": "latest"
+	},
+	"scripts": {
+		"start" : "node injektor.js"
+	}
+}
